@@ -84,6 +84,7 @@ from functions import get_age_group
     (14, "подросток"),
     (17, "подросток"),
     (18, "взрослый"),
+    (19, "взрослый"),
 ])
 def test_get_age_group(age, expected_group):
     result = get_age_group(age)
